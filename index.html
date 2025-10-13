@@ -8,6 +8,7 @@
     <title>Razorpay</title>
   </head>
   <body>
+    <!-- Navbar Section -->
     <nav class="bg-deepBlue">
       <div
         class="relative w-[1080px] flex items-center mx-auto justify-between"
@@ -77,17 +78,57 @@
             alt="Img"
           />
           <button
-            class="px-5 py-3 border-lightBlue text-white font-display border rounded-r-sm text-sm font-bold"
+            class="px-5 py-3 cursor-pointer border-lightBlue text-white font-display border rounded-r-sm text-sm font-bold"
           >
             Log in
           </button>
           <button
-            class="py-3 px-4 font-display text-sm rounded-r-sm bg-white text-lightBlue300 border font-bold transition-all duration-200 hover:text-lightBlue-500"
+            class="py-3 px-4 font-display cursor-pointer text-sm rounded-r-sm bg-white text-lightBlue300 border font-bold transition-all duration-200 hover:text-lightBlue-500"
           >
             Sign Up
           </button>
         </div>
       </div>
     </nav>
+    <!-- Hero Section-->
+    <section class="relative bg-deepBlue">
+      <div
+        class="w-10/12 max-w-[1080px] flex flex-row justify-between items-center mx-auto"
+      >
+        <!--Left part-->
+        <div class="space-y-8">
+          <h1
+            class="font-display font-bold text-[40px] leading-[1.2] text-white"
+          >
+            Power your finance, grow your business
+          </h1>
+          <div class="w-6 h-1 bg-greenLight"></div>
+          <p class="font-display text-[18px] text-white leading-7 opacity-70">
+            Accept payments from customers. Automate payouts to vendors &
+            employees. Never run out of working capital.
+          </p>
+          <button
+            class="bg-lightBlue text-white rounded-md font-display font-bold cursor-pointer transition-all duration-200 hover:bg-lightBlue-500 py-[14px] px-[18px]"
+          >
+            Sign Up Now
+          </button>
+        </div>
+        <!--Right part-->
+        <img
+          src="./images/hero-illustration.jpg"
+          alt="Img"
+          class="w-full max-w-[680px]"
+        />
+      </div>
+
+      <!--Shape Part-->
+      <div class="w-[103%] absolute left-0 right-0">
+        <img
+          src="./images/hero-shape.svg"
+          alt="Img"
+          class="w-full object-fill"
+        />
+      </div>
+    </section>
   </body>
 </html>
