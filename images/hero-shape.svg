@@ -1,12 +1,7 @@
-<svg
-          viewBox="0 0 1446 199"
-          focusable="false"
-          class="chakra-icon css-1w3t3sf"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="none"
-        >
-          <path
-            d="M -6 68.5 V 0 H 1445 V 91 L 1289 170 L -6 68.5 Z"
-            fill="#02042B"
-          ></path>
-        </svg>
+<svg width="1446" height="199" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="chakra-icon css-1w3t3sf" focusable="false">
+ <g>
+  <title>Layer 1</title>
+  <path stroke="null" id="svg_1" fill="#02042B" d="m-2,68.5l0,-68.5l1447.99998,0l0,91l-155.67746,79l-1292.32252,-101.5z"/>
+ </g>
+
+</svg>
