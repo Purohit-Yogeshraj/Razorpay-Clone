@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @theme {
+  --font-family-sans: "Mulish", sans-serif;
   --default-font-family: "Mulish", sans-serif;
   --font-display: "Mulish", sans-serif;
   --font-display: "Mulish", sans-serif;
@@ -14,4 +15,3 @@
   --color-deepBlueHead: #162f56;
   --color-gray2: #525a76;
 }
-
